@@ -28,7 +28,19 @@
       include("main/order/thanhtoan.php");
     } else if($temp == "cart") {
       include("main/cart/cart.php");
-    }  else {
+    } else if($temp == "customer_info") {
+      include("main/order/customer_info.php");
+    } else if($temp == "confirm_order") {
+      include("main/order/confirm_order.php");
+    } else if($temp == "orderHistory") {
+      include("main/order/orderHistory.php");
+    } else if($temp == "thanhtoannganhang") {
+      include("main/order/thanhtoannganhang.php");
+    } else if($temp == "order_detail") {
+      include("main/order/order_detail.php");
+    } else if($temp == "finish") {
+      include("main/order/finish.php");
+    } else {
       include("main/home.php");
     }
   ?>
